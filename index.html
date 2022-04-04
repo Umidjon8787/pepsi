@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href=""><img src="./imgSlider/pepsi-logo.png" alt="" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>  
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>That's What <br/> <span>I like</span></h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Incidunt voluptatem labore 
+                    reiciendis et sed magnam veniam vitae illum, facere quos?
+                </p>
+                <a href="#">View All Products</a>
+            </div>
+            <div class="imgBox">
+                <img src="./imgSlider/Pepsi1.png" alt="" class="pepsi">
+            </div>
+        </div>
+
+        <ul class="thumb">
+            <li><img src="./imgSlider/Pepsi1.png"  onclick="imgSlider('./imgSlider/Pepsi1.png');changeBgColor('#0062be')" alt=""></li>
+            <li><img src="./imgSlider/s-l300-removebg-preview.png" onclick="imgSlider('./imgSlider/s-l300-removebg-preview.png');changeBgColor('#e60c2c')" style="width: 400px;" alt=""></li>
+            <li><img src="./imgSlider/2-removebg-preview.png" onclick="imgSlider('./imgSlider/2-removebg-preview.png');changeBgColor('#1e1e1e')" style="width: 400px;" alt=""></li>
+        </ul>
+        <ul class="sci">
+            <li><ion-icon class="i" name="logo-twitter"></ion-icon></li>
+            <li><ion-icon class="i" name="logo-instagram"></ion-icon></li>
+            <li><ion-icon class="i" name="logo-facebook"></ion-icon></li>
+        </ul>
+    </section> 
+    
+    
+</body>
+<script src="./js/script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>
